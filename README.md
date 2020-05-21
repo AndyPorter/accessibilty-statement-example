@@ -1,20 +1,7 @@
 # Whats this repo for?
 
-I wanted an html version of a gov service sample accessibilty statement to copy / paste from, and play around with - to use in prototypes, and help content designers, front end, and testers make the real thing.
+The obvious thing to have is your standard template accessibility statement in HTML (in your design system/front end toolkit) ready to be tweaked and content added for an individual service.
 
-This repo is a copy of the gov prototype kit 9.5
+Mainly created for designers to drop into a prototype, so content design can work with people to create the services statement.  Easy then to copy paste that HTML into a front end, as the template is proven HTML / gov class marked-up.
 
-The sample accessibilty statement is from gov.uk: 
-[https://www.gov.uk/government/publications/sample-accessibility-statement](https://www.gov.uk/government/publications/sample-accessibility-statement) 
-
-my aim is to make a html - gov markedup, template page - with the guidance notes removed - a boilerplate page ready to insert the results of accessibilty testing from any project i work on.
-
-## To Do
-
-* add the statement and code (with instructions) to drop into any kit page
-* check the markup is: semantically correct, uses the design system markup and css
-* accessiiblity check the page
-* nake version for our internal applications
-* github gist - markup better published as a github gist?
-* add this to my (does not yet exist) 'kit with extra examples' (form validation, UR admin, accessibility statement, modals, autocomplete)
 
