@@ -2,7 +2,7 @@
 {% extends "layout.html" %}
 
 {% block pageTitle %}
-  GOV.UK Prototype Kit
+  Template accessibilty statement for HM Land Registry services and products
 {% endblock %}
 
 {% block content %}
@@ -11,31 +11,24 @@
     <div class="govuk-grid-column-two-thirds">
 
       <h1 class="govuk-heading-xl">
-        Boilerplate Accessibilty Statement
+        Template Accessibilty Statement for HM Land Registry services and products
       </h1>
 
       <p>
-        This is a copy of {{releaseVersion}} of the GOV.UK protoype kit used to rapidly create HTML prototypes.
-      </p>
+        This is the legally agreed wording for accessibilty statements.  Standard sections and pargagraphs, with advice on what to add/change for your product/service's specific accessibility situation</p>
 
       <p>
-        This proto contains a boilerplate version of the accessibilty statement needed for public services.
+      	Follow the advice within the template when creating your own statement.  If you believe there is an error with, or you require clarification about, any of the parts of the statement contact the [name of dept/role to contact] laywer
       </p>
 
-      <p>
-        The boilerplate html can be copied to put into any prototype.  This isn't to replace the statement or advice on GOV.UK or the design manual.  Its to save me (you) turning the boilerplate copy into html each time you need it.
-      </p>
-
-      <p>
-        Hopefully it reduces the overhead/time between accessibilty testers, content designers and front enders in making the real accessibility statement (by adding in the results of accessibility testing earlier) - to make something everyone can see much earlier on. Making the testing of bespoke accessibility content with users easier, earlier.
-      </p>
+      <p>Our accessibility statement is based on the <a href="https://www.gov.uk/government/publications/sample-accessibility-statement">GOV.UK sample accessibility statement and guidance notes, for public services and apps</a>.</p>
 
 
-      <h2 class="govuk-heading-m">Sample accessibility statement</h2>
+      <h2 class="govuk-heading-m">Get a copy to use for your service</h2>
 
-      <p><a href="https://www.gov.uk/government/publications/sample-accessibility-statement">GOV.UK puplish a sample accessibility statement and guidance notes, for public services and apps</a>.  We also use the same accessibility statement and guidance for internal gov (casework) websites and apps.</p>
+      <p>The html page is marked up with the standard GOV.UK markup and classes, and can be dropped into any basic protoype kit page, with no additional css.</p>
 
-      <p>Boilerplate page is marked up with the standard GOV.UK markup and classes, and can be dropped into any basic protoype kit page, with no additional css.</p>
+      <p>To style differently replace the gov.uk classes with your own, as the html is semantically correct</p>
 
       <p>Show me the:
 	      <ul class="govuk-list govuk-list--bullet">
@@ -43,16 +36,69 @@
 	      	<li><a href="boilerplate-html">html to copy and paste into my own proto</a></li>
 	      </ul>
 	    </p>
-    
 
-      <h2 class="govuk-heading-m">To Do</h2>
 
+<hr>
+
+			<h2 class="govuk-heading-m">Mimimum viable thing / roadmap</h2>
+			
+			<h3 class="govuk-heading-m">MVP - minimum viable app</h3>
+			<p>to do list, NOT in priority order</p>
       <ul class="govuk-list govuk-list--bullet">
-      	<li>add the statement and code (with instructions) to drop into any kit page</li>
+      	<li>HMLR template statement turned into sematically correct markup, with gov uk classes - ready to copy paste into any public service</li>
+      	<li>introduction to app / basic instructions</li>
+      	<li>write benefits/value of this approach</li>
+      	<li>write next steps / future steps - basic roadmap</li>
+      </ul>   
+
+      <h3 class="govuk-heading-m">To Do - statement</h3>
+			<p>to do list, NOT in priority order</p>
+      <ul class="govuk-list govuk-list--bullet">
       	<li>check the markup is: semantically correct, uses the design system markup and css</li>
-      	<li>accessiiblty check the page</li>
+      	<li>accessibilty check the page</li>
+      	<li>get someone to test this app - ensure the instructions make sense</li>
+      	<li>create internal service version</li>
       </ul>
 
+      <h3 class="govuk-heading-m">To Do - this app / repo</h3>
+      <p>to do ideas list, NOT in priority order</p>
+      <ul class="govuk-list govuk-list--bullet">
+      	<li>have one version of the statment text but transformed to different html - e.g. gov classes, org specific classes, with comments, without comments.  find way to not have to repeat template statement writing / maintenance. write it once.</li>
+      	<li>move to Land Registry github</li>
+      	<li>show and tell the idea/repo - value, benefits, etc</li>
+      	<li>editorial process - enforce 2 person pull/merge to master</li>
+      	<li>versioning on github - labelling? versions.  plus write advice in readme/index</li>
+      </ul>
+
+      <h2 class="govuk-heading-m">Why is this template a web page?</h2>
+      <p>It's a page in your service - treat it like any other page in your service</p>
+
+      <p>Working with an html, github hosted version of the statement from the start means:
+	      <ul class="govuk-list govuk-list--bullet">
+	      	<li>Its in the same format as the published statement will be, so:
+		      	<ul class="govuk-list govuk-list--bullet">
+			      	<li>the template html is sematically correct</li>
+			      	<li>accessibility testing of the templated elements of the page has been done</li>
+			      	<li>there is no need to leave it to chance when converting from an non html format</li>
+			      </ul>
+			    </li>
+		      <li>You can create your actual statement earlier and quicker, by cloning the template, so:
+			      <ul class="govuk-list govuk-list--bullet">
+			      	<li>you can use it in a prototype when usabilty testing/content testing</li>
+			      	<li>it allows the content designer/testers/devs to put the accessibilty test results stright into html, and share the service page with users/colleagues in the format it will be consumed.  Either add the bespoke copy to the proto or prodcution. (note: i'd suggest clone the template repo for your services accessibilty statement reop)</li>
+			      </ul>
+			    </li>
+			    <li>It's a page in the service like any other, treat it like one (put it in github), so:
+			      <ul class="govuk-list govuk-list--bullet">
+			      	<li>we are working in the open, people can spot errors and suggest improvements</li>
+			      	<li>we get version control/change control process and a full history of change</li>
+			      	<li>single source of the agreed template (not many copies)
+			      	<li>editorial/change process - that is legally provable in court (what version of the template / boiler plate copy was published when)</li>
+			      	<li>
+			      </ul>
+			    </li>
+	      </ul>
+      </p>
 
     </div>
 	</div>

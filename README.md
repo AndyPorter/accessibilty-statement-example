@@ -14,4 +14,7 @@ my aim is to make a html - gov markedup, template page - with the guidance notes
 * add the statement and code (with instructions) to drop into any kit page
 * check the markup is: semantically correct, uses the design system markup and css
 * accessiiblity check the page
+* nake version for our internal applications
+* github gist - markup better published as a github gist?
+* add this to my (does not yet exist) 'kit with extra examples' (form validation, UR admin, accessibility statement, modals, autocomplete)
 
